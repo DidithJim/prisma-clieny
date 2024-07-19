@@ -190,14 +190,7 @@ body{
     
 }
 
-@media screen and (min-width:1024px) and (max-width: 1440px) {
 
-    .seccionCardsInicio{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-}
 
 @media screen and (min-width:1440px) {
 
