@@ -68,7 +68,7 @@ body{
     align-items: center;
     width: 100%;
     height: 70vh;
-    background-image: url('hero.jpg');
+    background-image: url('/hero.jpg');
     background-size: cover;
 }
 
@@ -315,7 +315,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: Fuente1;
-    background-image: url('fondo-quienes.jpg');
+    background-image: url('/fondo-quienes.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -458,19 +458,6 @@ body{
     
 }
 
-@media screen and (min-width:1024px) and (max-width: 1440px) { /*Portátiles/pantallas pequeñas*/
-
-    .obras {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .obras__imagen{
-        width: 100%;
-        height: auto;
-    }  
-}
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) { /*Pantallas grandes*/
 
