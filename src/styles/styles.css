@@ -184,8 +184,8 @@ body{
 @media screen and (max-width: 1024px) {
 
     .seccionCardsInicio{
-        display: flex;
-        flex-wrap: wrap;
+       display: grid;
+        grid-template-columns:repeat(3,1fr);
     }
     
 }
