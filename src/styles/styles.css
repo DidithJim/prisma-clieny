@@ -194,7 +194,16 @@ body{
 
     .seccionCardsInicio{
         display: grid;
-        grid-templates-columns:
+        grid-templates-columns: 1fr 1fr 1fr:
+    }
+    
+}
+
+@media screen and (min-width:1440px) {
+
+    .seccionCardsInicio{
+        display: grid;
+        grid-templates-columns: 1fr 1fr 1fr:
     }
     
 }
