@@ -193,8 +193,8 @@ body{
 @media screen and (min-width:1024px) and (max-width: 1440px) {
 
     .seccionCardsInicio{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-templates-columns:
     }
     
 }
@@ -260,7 +260,7 @@ body{
 
     .footer{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 1fr 1fr 1fr;
     }
     
 }
